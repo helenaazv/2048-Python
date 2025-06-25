@@ -27,23 +27,13 @@ python3 2048.py
 
 Note: This script uses the curses module, which works best in Unix-based terminals (Linux/macOS). On Windows, consider using Windows Terminal or WSL (Windows Subsystem for Linux) for best results.
 
-File Structure
+##File Structure
+
 2048.py – main game logic and interface
 
 README.md – this file
 
-Example Gameplay (Terminal View)
-2048 Game | Score: 4
-+----+----+----+----+
-| | | | 2 |
-+----+----+----+----+
-| | | | 2 |
-+----+----+----+----+
-| | | | |
-+----+----+----+----+
-| | | | |
-+----+----+----+----+
-Use arrow keys to move. Press 'q' to quit.
+<pre> ## Example Gameplay (Terminal View) ``` 2048 Game | Score: 4 +----+----+----+----+ | | | | 2 | +----+----+----+----+ | | | | 2 | +----+----+----+----+ | | | | | +----+----+----+----+ | | | | | +----+----+----+----+ Use arrow keys to move. Press 'q' to quit. ``` </pre>
 
 ## How it Works
 Matrix Transformations: Moves are computed via row-wise operations (e.g., compressing and merging) and 90° board rotations to simulate up/down moves.
