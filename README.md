@@ -23,24 +23,25 @@ Ensure you have Python installed (version 3.6 or above).
 ### 1. Clone or download the repo
 
 ### 2. Run the game
-python3 game.py
+python3 2048.py
 
 Note: This script uses the curses module, which works best in Unix-based terminals (Linux/macOS). On Windows, consider using Windows Terminal or WSL (Windows Subsystem for Linux) for best results.
 
 File Structure
 2048.py – main game logic and interface
+
 README.md – this file
 
 Example Gameplay (Terminal View)
 2048 Game | Score: 4
 +----+----+----+----+
-|    |    |    |  2 |
+| | | | 2 |
 +----+----+----+----+
-|    |    |    |  2 |
+| | | | 2 |
 +----+----+----+----+
-|    |    |    |    |
+| | | | |
 +----+----+----+----+
-|    |    |    |    |
+| | | | |
 +----+----+----+----+
 Use arrow keys to move. Press 'q' to quit.
 
