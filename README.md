@@ -27,7 +27,7 @@ python3 2048.py
 
 Note: This script uses the curses module, which works best in Unix-based terminals (Linux/macOS). On Windows, consider using Windows Terminal or WSL (Windows Subsystem for Linux) for best results.
 
-###File Structure
+## File Structure
 
 2048.py – main game logic and interface
 
@@ -40,5 +40,5 @@ Score Calculation: The score is the sum of all tile values on the board.
 
 Game Over Check: If no zeros or adjacent equal values exist, the game ends.
 
-###Acknowledgments
+### Acknowledgments
 Inspired by the original 2048 game by Gabriele Cirulli.
