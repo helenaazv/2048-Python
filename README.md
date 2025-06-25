@@ -46,8 +46,10 @@ Use arrow keys to move. Press 'q' to quit.
 
 ## How it Works
 Matrix Transformations: Moves are computed via row-wise operations (e.g., compressing and merging) and 90° board rotations to simulate up/down moves.
+
 Score Calculation: The score is the sum of all tile values on the board.
+
 Game Over Check: If no zeros or adjacent equal values exist, the game ends.
 
-#Acknowledgments
+##Acknowledgments
 Inspired by the original 2048 game by Gabriele Cirulli.
